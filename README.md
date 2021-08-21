@@ -7,7 +7,7 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi <br/>
 Control panel->Turn windows features on or off->Hyper-V <br/>
 
 <br/>
-IF YOU GET THE FOLLOWING ERRORS: <br/>
+IF YOU GET THE FOLLOWING ERRORS: <br/> 
 
 Docker failed to initialize: <br/>
 DELETE THESE FOLDERS: <br/> 
