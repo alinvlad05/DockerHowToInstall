@@ -59,4 +59,4 @@ This option enables to access the running Tomcat container by routing the host p
 container port. The following command starts the container with the name as   <br/>
 userdetailsservice. The –rm option is used to remove the filesystem  <br/>
 when the container exits. This is required for the cleanup process. <br/>
-docker run -it --rm -p 8181:8080 --name "userdetailsservice" tomcat:7.0.57-jre7  <br/>
+docker run -it --rm -p 8181:8080 --name "userdetailsservice" tomcat:7.0.57-jre7  <br/> 
