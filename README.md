@@ -52,3 +52,11 @@ If you have started a container and then you want to connect to the running cont
 The Docker rm command deletes or removes a container from the machine. <br/>
 To remove an image from the system, use the docker rmi command. <br/>
 Docker inspect command helps to find the complete details of container run. <br/>
+To create a Tomcat container, we will pull an image from the central repository   <br/>
+run the docker pull tomcat:7.0.57-jre7 command.  <br/>
+The container is created and started with the docker run command with one of the options -p <host_port>:<container_port>.  <br/>
+This option enables to access the running Tomcat container by routing the host port to the   <br/>
+container port. The following command starts the container with the name as   <br/>
+userdetailsservice. The –rm option is used to remove the filesystem  <br/>
+when the container exits. This is required for the cleanup process. <br/>
+docker run -it --rm -p 8181:8080 --name "userdetailsservice" tomcat:7.0.57-jre7  <br/>
