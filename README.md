@@ -40,3 +40,15 @@ on a host machine. The benefit of Docker over virtual machine is that Docker is 
 light-weight process compared to a virtual machine and it provides resource isolation  <br/>
 when sharing the same kernel including drivers of the host machine. Docker is open  <br/>
 source technology and supported on different platforms.  <br/>
+
+To download an image from the repository, you can use the docker pull <image name> command.  <br/>
+Once the image is downloaded, you can find the list of images using the docker images command. <br/>
+Once image is downloaded, you can create a container using the Docker run command. <br/>
+To find the list of running containers use the Docker ps command. <br/>
+Run the same command now with the –a option (Show all containers). <br/>
+Once the container is created from the image, it can be started/stopped using the following commands: <br/>
+docker start|stop containername|containerid <br/>
+If you have started a container and then you want to connect to the running container console, the Docker attach command. <br/>
+The Docker rm command deletes or removes a container from the machine. <br/>
+To remove an image from the system, use the docker rmi command. <br/>
+Docker inspect command helps to find the complete details of container run. <br/>
