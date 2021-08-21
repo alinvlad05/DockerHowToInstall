@@ -21,6 +21,16 @@ Reboot your Computer and Press the BIOS Key F2/DELETE for ASUS <br/>
 Locate the section for CPU configuration <br/>
 TURN INTEL VIRTUALIZATION ON. <br/>
 
+To verify the installation, you can execute the docker run hello-world command. <br/>
+This command downloads a test image and runs the command in a container: <br/>
+$ docker run hello-world <br/>
+Unable to find image 'hello-world' locally <br/>
+Pulling repository hello-world <br/>
+91c95931e552: Download complete  <br/>
+a8219747be10: Download complete  <br/>
+Hello from Docker. <br/>
+If the preceding message is displayed on the console, it means the installation is <br/>
+successful. <br/>
 
 Docker is an open source container-based virtualization technology that helps to   <br/>
 automate the deployment of an application inside a container. Docker uses resource   <br/>
